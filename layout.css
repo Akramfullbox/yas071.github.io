@@ -15,11 +15,7 @@ ul
   li a:hover:not(.active) {background-color: gray; color: darkgray }
   .active {background-color: gray; color: darkgray}
 
-  body {
-    background-image: url("matrixachtergrond.png");
-  }
-
-  #body1 {background-image: url("informatica.jpg")}
+  #body1 {background-image: url("matrixachtergrond.png")}
 h1 {color: white; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: medium; font-size: 32px; text-decoration: underline; text-decoration-color: lightblue;}
 p {color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
