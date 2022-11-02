@@ -4,12 +4,12 @@ ul
     padding: 0;
     overflow: hidden;
     background-color: black; }
-  li {  float: left; border-right: 1px solid white;}
+  li {  float: left; border-right: 1 solid white;}
   
   li a {display: block;
     color: white;
     text-align: center;
-    padding: 8px 8px;
+    padding: 8 8;
     text-decoration: none;}
   
   li a:hover:not(.active) {background-color: lightblue; color: black }
