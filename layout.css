@@ -1,16 +1,3 @@
-ul
-{ list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black; }
-  li {  float: left; border-right: 1px solid white;}
-  
-  li a {display: block;
-    color: white;
-    text-align: center;
-    padding: 8px 8px;
-    text-decoration: none;}
-  
-  li a:hover:not(.active) {background-color: lightblue; color: black }
-  .active {background-color: lightblue; color: black}
+li {
+    display: inline;
+  }
