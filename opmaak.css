@@ -1,33 +1,37 @@
-ul
-{ list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black; }
-  li {  float: left; border-right: 1px solid white;}
-  
-  li a {display: block;
-    color: white;
-    text-align: center;
-    padding: 22px 24px;
-    text-decoration: none;}
-  
-  li a:hover:not(.active) {background-color: lightblue; color: black }
-  .active {background-color: lightblue; color: black}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-            
-#body1 {background-image: url("image.png")}
-h1 {color: white; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: medium; font-size: 32px; text-decoration: underline; text-decoration-color: lightblue;}
-p {color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19px;}
+li {
+  float: left;
+}
 
-    li {
-      float: left;
-    }
-    
-    a {
-      display: block;
-      padding: 8px;
-      background-color: #dddddd;
-    }
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#index">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<p><b>Note:</b> If a !DOCTYPE is not specified, floating items can produce unexpected results.</p>
+<p>A background color is added to the links to show the link area. The whole link area is clickable, not just the text.</p>
+<p><b>Note:</b> overflow:hidden is added to the ul element to prevent li elements from going outside of the list.</p>
+
+</body>
+</html>
