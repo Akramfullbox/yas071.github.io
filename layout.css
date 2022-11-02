@@ -3,7 +3,7 @@ ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black; }
+    background-color: darkgray; }
   li {  float: left; border-right: 1px solid white;}
   
   li a {display: block;
@@ -12,5 +12,5 @@ ul
     padding: 22px 24px;
     text-decoration: none;}
   
-  li a:hover:not(.active) {background-color: lightblue; color: black }
-  .active {background-color: lightblue; color: black}
+  li a:hover:not(.active) {background-color: gray; color: darkgray }
+  .active {background-color: gray; color: darkgray}
