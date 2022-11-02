@@ -1,9 +1,16 @@
-li {
-    float: left;
-  }
+ul
+{ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black; }
+  li {  float: left; border-right: 1px solid white;}
   
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #333333;
-  }
+  li a {display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 24px;
+    text-decoration: none;}
+  
+  li a:hover:not(.active) {background-color: lightblue; color: black }
+  .active {background-color: lightblue; color: black}
