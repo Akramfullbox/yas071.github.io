@@ -14,3 +14,7 @@ ul
   
   li a:hover:not(.active) {background-color: gray; color: darkgray }
   .active {background-color: gray; color: darkgray}
+
+  body {
+    background-image: url("paper.gif");
+  }
