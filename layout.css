@@ -1,9 +1,9 @@
-li a {
-    display: block;
-    padding: 8px;
-    background-color:  #333333;
-  }
-
 li {
     float: left;
-}
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #33333;
+  }
