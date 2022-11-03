@@ -11,6 +11,10 @@ ul
     text-align: center;
     padding: 22px 24px;
     text-decoration: none;}
+
+    body {
+      background-image: url("matrixachtergrond.png");
+    }
   
   li a:hover:not(.active) {background-color: gray; color: darkgray }
   .active {background-color: gray; color: darkgray}
