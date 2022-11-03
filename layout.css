@@ -31,7 +31,5 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
 }
 
-body {
-  background-image: url(matrixachtergrond.png);
-}
+body {background-image:url(matrixachtergrond.png);}
 
