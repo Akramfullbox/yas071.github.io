@@ -33,7 +33,8 @@ li a:hover:not(.active) {
 }
 
 .header {
-  background-color: #000000;
+  background-color: #000000; 
+  color:aliceblue
   text-align: center;
   padding: 20px;
 }
