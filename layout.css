@@ -30,13 +30,13 @@ li a {
 
 /* Stijlen voor de hover-status van de links in de hoofdlijst */
 li a:hover:not(.active) {
-  background-color: #353db5;
+  background-color: #ffffff;
 }
 
 /* Stijlen voor de actieve link in de hoofdlijst */
 .active {
   background-color: #04AA6D;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 /* Stijlen voor de dropdownknop */
