@@ -19,7 +19,7 @@ li:last-child {
 /* De stijlen voor de links in de hoofdlijst */
 li a {
   display: block;
-  color: #ffffff; /*Hier is de tekstkleur op wit ingesteld */
+  color: #000000; /*Hier is de tekstkleur op wit ingesteld */
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
