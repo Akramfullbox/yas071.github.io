@@ -27,7 +27,7 @@ li a {
 
 /* Stijlen voor de hover-status van de links in de hoofdlijst */
 li a:hover:not(.active) {
-  background-color: rgb(255, 255, 255);
+  background-color: #04AA6D;
 }
 
 /* Stijlen voor de actieve link in de hoofdlijst */
