@@ -19,7 +19,7 @@ li:last-child {
 /* De stijlen voor de links in de hoofdlijst */
 li a {
   display: block;
-  color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
