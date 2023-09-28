@@ -1,3 +1,7 @@
+.witte-tekst {
+  color: #ffffff; /* Hier is de tekstkleur ingesteld op wit */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -18,8 +22,7 @@ li:last-child {
 
 /* De stijlen voor de links in de hoofdlijst */
 li a {
-  display: block;
-  color: #ffffff; 
+  display: block; 
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
