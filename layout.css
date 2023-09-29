@@ -66,6 +66,13 @@ li a:hover:not(.active) {
   text-decoration: none;
 }
 
+column { /* dit is de opmaak van de tekst en een afbeelding */
+  float: left;
+  width: 55%;
+  padding: 15px; 
+  margin-bottom: 5%;
+}
+
 /* Stijlen voor de dropdownknop */
 .dropdownbutton {
   position: relative;
