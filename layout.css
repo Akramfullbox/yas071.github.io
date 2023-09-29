@@ -73,10 +73,14 @@ column { /* dit is de opmaak van de tekst en een afbeelding */
   margin-bottom: 5%;
 }
 
-/* Stijlen voor de dropdownknop */
-.dropdownbutton {
-  position: relative;
-}
+.paragraaf {
+  background-color: #F1F1F1; /*achtergrond kleur voor de paragraaf*/
+  text-align: center; /*dit laat zien dat de tekst in het midden zal komen te staan*/
+  padding: 8px; /*hierdoor wordt de hoogte ingesteld van de paragraaf*/
+  font-size: 24px; /*dit onderdeel heeft effect op de grootte van de tekst in de paragraaf*/
+  color: #000000; /*tekstkleur in de paragraaf*/
+} /*geeft de kopjes aan*/
+
 
 /* Stijlen voor de dropdowninhoud */
 .dropdownmenu {
