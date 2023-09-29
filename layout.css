@@ -31,6 +31,7 @@ li a {
 /* Stijlen voor de hover-status van de links in de hoofdlijst */
 li a:hover:not(.active) {
   background-color: #ffffff;
+  color: #005dc1;
 }
 
 /* Stijlen voor de actieve link in de hoofdlijst */
@@ -49,6 +50,21 @@ li a:hover:not(.active) {
   font-size: medium; /*dit zorgt voor een tekstgrote large*/
   background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
 } 
+
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 /* Stijlen voor de dropdownknop */
 .dropdownbutton {
