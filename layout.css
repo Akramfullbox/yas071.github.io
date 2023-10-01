@@ -42,7 +42,7 @@ li a:hover:not(.active) {
 
 .footer {
   position: relative;
-  left: 0;
+  left: 1;
   bottom: 0;
   width: 100%;
   text-align: center; /*dit geeft aan waar de text zal komen te staan, dus in het midden*/
