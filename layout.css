@@ -56,31 +56,24 @@ li a:hover:not(.active) {
   overflow: hidden;
 }
 
-/* Style the navigation links */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-column { /* dit is de opmaak van de tekst en een afbeelding */
-  float: left;
-  width: 55%;
-  padding: 15px; 
-  margin-bottom: 5%;
-}
-
+/* paragraaf met breedte van 100%*/
 .paragraaf {
-  background-color: #F1F1F1; /*achtergrond kleur voor de paragraaf*/
-  text-align: center; /*dit laat zien dat de tekst in het midden zal komen te staan*/
-  padding: 8px; /*hierdoor wordt de hoogte ingesteld van de paragraaf*/
-  font-size: 24px; /*dit onderdeel heeft effect op de grootte van de tekst in de paragraaf*/
-  color: #000000; /*tekstkleur in de paragraaf*/
-} /*geeft de kopjes aan*/
+  padding: 8px; /* ruimte rondom de inhoud van een element*/  
+  color: lightskyblue; /* tekst kleur van paragraaf*/
+  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+  font-family: "Times New Roman", Times, serif; /* lettertype*/
+  font-size: large; /* lettergrootte*/
+}
 
+/* paragraaf met breedte van 60%*/
+#paragraaf2 {
+  padding: 8px; /* ruimte rondom de inhoud van een element*/
+  color: lightskyblue; /* tekst kleur van paragraaf*/
+  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+  font-family: "Times New Roman", Times, serif; /* lettertype*/
+  font-size: large; /* lettergrootte*/
+  width: 60%; /* breedte van paragraaf*/
+}
 
 /* Stijlen voor de dropdowninhoud */
 .dropdownmenu {
