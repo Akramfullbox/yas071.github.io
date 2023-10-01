@@ -31,13 +31,13 @@ li a {
 /* Stijlen voor de hover-status van de links in de hoofdlijst */
 li a:hover:not(.active) {
   background-color: #ffffff;
-  color: #005dc1;
+  color: #0073ed;
 }
 
 /* Stijlen voor de actieve link in de hoofdlijst */
 .active {
   background-color: #04AA6D;
-  color: rgb(255, 255, 255);
+  color: rgb(184, 241, 255);
 }
 
 .footer {
@@ -51,28 +51,13 @@ li a:hover:not(.active) {
   background-color: #F1F1F1; /*achtergrond kleur voor de footer*/
 } 
 
-.navbar {
-  background-color: #000000;
-  overflow: hidden;
-}
-
 /* paragraaf met breedte van 100%*/
 .paragraaf {
-  padding: 8px; /* ruimte rondom de inhoud van een element*/  
-  color: rgb(0, 0, 0); /* tekst kleur van paragraaf*/
+  padding: 8px; /* ruimte rondom de inhoud*/  
+  color: rgb(0, 0, 0); 
   background-color: rgb(253, 253, 253); /* achtergrondkleur van paragraaf*/
   font-family: "Times New Roman", Times, serif; /* lettertype*/
   font-size: large; /* lettergrootte*/
-}
-
-/* paragraaf met breedte van 60%*/
-#paragraaf2 {
-  padding: 8px; /* ruimte rondom de inhoud van een element*/
-  color: rgb(0, 0, 0); /* tekst kleur van paragraaf*/
-  background-color: rgb(253, 253, 253); /* achtergrondkleur van paragraaf*/
-  font-family: "Times New Roman", Times, serif; /* lettertype*/
-  font-size: large; /* lettergrootte*/
-  width: 60%; /* breedte van paragraaf*/
 }
 
 /* Stijlen voor de dropdowninhoud */
