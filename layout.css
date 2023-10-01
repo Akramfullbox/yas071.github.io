@@ -13,7 +13,7 @@ ul {
 li {
   float: left;
   border-right: 1px solid rgb(145, 145, 145);
-  position: relative; /* Dit is toegevoegd voor het positioneren van de dropdown */
+  position: relative; /* Dit is toegevoegd voor het in positie brengen van de dropdown */
 }
 
 li:last-child {
