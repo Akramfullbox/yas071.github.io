@@ -68,8 +68,8 @@ li a:hover:not(.active) {
 /* paragraaf met breedte van 60%*/
 #paragraaf2 {
   padding: 8px; /* ruimte rondom de inhoud van een element*/
-  color: lightskyblue; /* tekst kleur van paragraaf*/
-  background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+  color: rgb(0, 0, 0); /* tekst kleur van paragraaf*/
+  background-color: rgb(253, 253, 253); /* achtergrondkleur van paragraaf*/
   font-family: "Times New Roman", Times, serif; /* lettertype*/
   font-size: large; /* lettergrootte*/
   width: 60%; /* breedte van paragraaf*/
